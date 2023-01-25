@@ -9,7 +9,7 @@ cd /var/www/webrtc/webrtc
 
 npm run build
 
-# pm2 delete nextjs
+pm2 delete webrtc
 pm2 start npm --name "webrtc" -- run start
 
 pm2 show webrtc
