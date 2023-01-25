@@ -8,7 +8,7 @@ What WebRTC does is to allow access to devices – you can use a microphone, a c
 
 WebRTC is a complex topic where many technologies are involved. However, establishing connections, communication and transmitting data are implemented through a set of JS APIs. The primary APIs include:
 
-- **RTCPeerConnection** –  creates and navigates peer-to-peer connections;
+- **RTCPeerConnection** – creates and navigates peer-to-peer connections;
 - **RTCSessionDescription** – describes one end of a connection (or a potential connection) and how it’s configured;
 - **navigator.getUserMedia** – captures audio and video.
 
@@ -26,12 +26,12 @@ For this application the **mesh** topology is used, when each participant in a s
 
 ## Used
 
-* [React](https://reactjs.org/)
-* [WebRTC](https://webrtc.org/)
-* [socket.io](https://socket.io)
-* [Express](https://expressjs.com/)
+- [React](https://reactjs.org/)
+- [WebRTC](https://webrtc.org/)
+- [socket.io](https://socket.io)
+- [Express](https://expressjs.com/)
 
-## Available Scripts
+## Available Scripts:
 
 In the project directory, you can run:
 
