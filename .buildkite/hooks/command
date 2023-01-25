@@ -3,14 +3,13 @@ rsync -rvc --delete --exclude=node_modules --exclude=.git --exclude=.buildkite /
 
 # mkdir -p /var/www/webrtc/node_modules
 
-# npm install --prefix /var/www/reqdoc-nextjs-frontend/reqdoc-nextjs-frontend
-# npm install --prefix /var/www/reqdoc-nextjs-frontend/reqdoc-nextjs-frontend sharp
+npm install --prefix /var/www/webrtc/webrtc
 
-# cd /var/www/reqdoc-nextjs-frontend/reqdoc-nextjs-frontend
+cd /var/www/webrtc/webrtc
 
-# npm run build
+npm run build
 
 # pm2 delete nextjs
-# pm2 start npm --name "nextjs" -- run start
+pm2 start npm --name "webrtc" -- run start
 
-# pm2 show nextjs
+pm2 show webrtc
