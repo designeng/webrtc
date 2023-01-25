@@ -1,0 +1,16 @@
+#!/bin/sh
+rsync -rvc --delete --exclude=node_modules --exclude=.git --exclude=.buildkite /var/lib/buildkite-agent/builds/reg-doc-1/jslabs/webrtc /var/www/webrtc
+
+# mkdir -p /var/www/webrtc/node_modules
+
+# npm install --prefix /var/www/reqdoc-nextjs-frontend/reqdoc-nextjs-frontend
+# npm install --prefix /var/www/reqdoc-nextjs-frontend/reqdoc-nextjs-frontend sharp
+
+# cd /var/www/reqdoc-nextjs-frontend/reqdoc-nextjs-frontend
+
+# npm run build
+
+# pm2 delete nextjs
+# pm2 start npm --name "nextjs" -- run start
+
+# pm2 show nextjs
